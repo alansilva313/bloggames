@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccccc38;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 9000;
+}
+
+
+.ico, .icomenu {
+
+    font-size: 29px;
+}
+
+.posts {
+    width: 100%;
+    padding: 15px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.cardPost {
+    width: 290px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px -1px #ccc;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+
+.cardPost h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.textCard {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 8000;
+    color: #fff;
+    padding: 15px;
+}
+
+.cardPost img {
+    position: absolute;
+    width: 100%;    
+    border-radius: 5px;
+
+}
+
+.carregarMais {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    height: 100px;
+    margin-top: 25px;
+    border-top: 1px solid #cccccc3d;
+}
+
+.textFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+
+.textFooter a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
